@@ -2,22 +2,20 @@
 
 
 /**
-* main - main function the argument
-*
-* @argc: print argument
-* @argv: print the vector
-* Return : return 0
+*main -main function add togethe
+*Return: return value of main 0
 */
 
-int main(int argc, char argv[])
+int main(void)
 {
-	char betty;
+	int x, y, z;
 
-	betty = argv[];
+	x = 5;
+	y = 8;
+	z = x * y;
 
-	if (argv[] == 1 && argv[] >= 1)
+	printf("%d", z);
 	{
-		printf("%c", argv[]);
-	}
 	return (0);
+	}
 }
